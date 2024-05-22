@@ -1,11 +1,33 @@
 {
-  "name": "@acme/icons",
+  "name": "@Pa/Icons",
   "version": "1.0.0",
-  "description": "SVG-based React icon components",
+  "description": "SVG-based React icons",
   "keywords": [
     "React",
     "SVG",
-    "Icons"
+    "Icons","React",
+    "SVG",
+    "Icons",
+    "JavaScript",
+    "Frontend Development",
+    "UI Components",
+    "Web Design",
+    "Component Libraries",
+    "Vector Graphics",
+    "Responsive Design",
+    "JSX",
+    "D3.js",
+    "Animation",
+    "Performance Optimization",
+    "State Management",
+    "Reusable Components",
+    "Design Systems",
+    "CSS-in-JS",
+    "Accessibility",
+    "Code Splitting",
+    "Progressive Web Apps (PWA)",
+    "Prop Types",
+    "Context API"
   ],
   "module": "dist/index.esm.js",
   "files": [
@@ -16,8 +38,8 @@
     "build": "npm run svgr && rollup -c",
     "svgr": "svgr --icon --title-prop --replace-attr-values '#1D1D1D=currentColor' -d src -- assets"
   },
-  "author": "Mykhaylo Ryechkin",
-  "license": "MIT",
+  "author": "PA",
+  "license":"ISC",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.16.4",
     "@babel/preset-env": "^7.16.4",
